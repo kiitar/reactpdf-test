@@ -37,7 +37,7 @@ const TestPdf = () => {
       <Page size='A4' style={styles.page}>
         <View>
           <View>
-            <Image source={sewLogo} style={styles.logo} />
+            <Image source={sewLogo} style={styles.logo} debug />
             <Text style={styles.text}>ฟ้อนภาษาไทย</Text>
             <Text style={styles.textBold}>ฟ้อนภาษาไทย ตัวหนา</Text>
           </View>

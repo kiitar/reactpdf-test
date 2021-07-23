@@ -5,7 +5,7 @@ import { Box, Button, Dialog } from '@material-ui/core';
 import DocumentTextIcon from './icons/DocumentText';
 import ArrowLeftIcon from './icons/ArrowLeft';
 const App = () => {
-  const [isOpenPDF, setIsOpenPDF] = useState(false);
+  const [isOpenPDF, setIsOpenPDF] = useState(true);
 
   return (
     <>
